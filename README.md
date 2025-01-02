@@ -8,7 +8,9 @@ As the Internet of Things (IoT) continues to expand its footprint across various
 ## ToN-IoT Dataset
 
 ## System model
-![Proposed Framework Architecture.](AI implementation.png)
+The architecture of our solution is described in the figure below and is divided into 4 main steps: data acquisition, data pre-
+processing, data manipulation, and algorithms implementation and evaluation.
+![Proposed Framework Architecture.](AI_implementation.png)
 
 ## Running the code
 
