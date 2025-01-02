@@ -9,6 +9,20 @@ As the Internet of Things (IoT) continues to expand its footprint across various
 
 ## Results
 
-# Contribution
+## Citation
+Please do not hesitate to contribute to this project and cite us:
+```
+@INPROCEEDINGS{10697949,
+  author={Kaddour, Hamza and Das, Shaibal and Bajgai, Rishikesh and Sanchez, Amairanni and Sanchez, Jason and Chiu, Steve C. and Ashour, Ahmed F. and Fouda, Mostafa M.},
+  booktitle={2024 IEEE Opportunity Research Scholars Symposium (ORSS)}, 
+  title={Evaluating the Performance of Machine Learning-Based Classification Models for IoT Intrusion Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={84-87},
+  keywords={Machine learning algorithms;Biological system modeling;Ecosystems;Intrusion detection;Smart homes;Predictive models;Data models;Internet of Things;Random forests;Optimization;IoT security;intrusion detection systems;cyber-security threats;IoT networks;malicious intrusions;safeguarding IoT ecosystems},
+  doi={10.1109/ORSS62274.2024.10697949}}
+```
+
 If you find this project interesting, please do not hesitate to reach out to me for any recommendations, questions, or suggestions.
 [Email me](mailto:hamzakaddour@isu.edu)
