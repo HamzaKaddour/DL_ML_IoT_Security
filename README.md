@@ -21,6 +21,19 @@ processing, data manipulation, and algorithms implementation and evaluation.
 The main results are illustrated in the table and figure below:
 <br>
 ![Classifiers Performance.](Models.png)
+<br>
+
+## Model Evaluation Metrics
+
+| Model                | Accuracy   | Log Loss       | RMSE      | F1 Score  | Precision Score | R2 Score   |
+|----------------------|------------|----------------|-----------|-----------|-----------------|------------|
+| Ridge                | 0.822502   | **0.6397665**  | 0.421305  | 0.893667  | 0.822655        | 0.019612   |
+| XGBoost              | **0.998484** | 0.054652     | **0.038939** | **0.999006** | 0.998820        | **0.991625** |
+| Logistic Regression  | 0.863986   | 0.368590       | 0.368800  | 0.915657  | 0.868558        | 0.248745   |
+| Random Forest        | **0.998484** | **0.006544**  | **0.038939** | 0.999006  | **0.998913**     | **0.991625** |
+| Gradient Boosting    | 0.993390   | 0.032367       | 0.081302  | 0.995674  | 0.993810        | 0.963491   |
+
+
 ## Citation
 Please do not hesitate to contribute to this project and cite us:
 ```
