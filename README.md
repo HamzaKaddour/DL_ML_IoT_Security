@@ -8,7 +8,7 @@ As the Internet of Things (IoT) continues to expand its footprint across various
 ## ToN-IoT Dataset
 
 ## System model
-![Proposed Framework Architecture.](AI Implementation.png)
+![Proposed Framework Architecture.](AI implementation.png)
 
 ## Running the code
 
