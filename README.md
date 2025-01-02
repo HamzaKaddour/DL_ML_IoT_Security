@@ -36,6 +36,12 @@ The main results are illustrated in the table and figure below:
 | Random Forest        | **0.998484** | **0.006544**  | **0.038939** | 0.999006  | **0.998913**     | **0.991625** |
 | Gradient Boosting    | 0.993390   | 0.032367       | 0.081302  | 0.995674  | 0.993810        | 0.963491   |
 
+Next, we used the Multilayer Perceptrons (MLP) in Deep Learning and the Deep Q-Network in Reinforcement Learning on the same data, and the performances are as follows: <br>
+
+![](DLAccuracy.png)
+![](DLLoss.png)
+![](drlperf.png)
+
 
 ## Citation
 Please do not hesitate to contribute to this project and cite us:
