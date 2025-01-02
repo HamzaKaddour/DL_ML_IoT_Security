@@ -21,6 +21,10 @@ processing, data manipulation, and algorithms implementation and evaluation.
 ### TO NOTE
 In the code, We developed models other than the tested models, where we included both Deep Learning (Multilayer Perceptrons (MLP)) models and Reinforcement Learning (DQN) setup.
 ## Results
+First, we explored the data and we deducted a correlation analysis as in the figure below: <br>
+
+![Correlation with the target feature label](correlation.png)
+
 The main results are illustrated in the table and figure below:
 <br>
 ![Classifiers Performance.](Models.png)
