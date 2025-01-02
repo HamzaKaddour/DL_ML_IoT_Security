@@ -17,6 +17,9 @@ processing, data manipulation, and algorithms implementation and evaluation.
 
 ## Running the code
 
+
+### TO NOTE
+In the code, We developed models other than the tested models, where we included both Deep Learning (Multilayer Perceptrons (MLP)) models and Reinforcement Learning (DQN) setup.
 ## Results
 The main results are illustrated in the table and figure below:
 <br>
@@ -48,6 +51,6 @@ Please do not hesitate to contribute to this project and cite us:
   keywords={Machine learning algorithms;Biological system modeling;Ecosystems;Intrusion detection;Smart homes;Predictive models;Data models;Internet of Things;Random forests;Optimization;IoT security;intrusion detection systems;cyber-security threats;IoT networks;malicious intrusions;safeguarding IoT ecosystems},
   doi={10.1109/ORSS62274.2024.10697949}}
 ```
-
+You can find an extension to this paper where included the DL and RL and comparison in the following [document](https://drive.google.com/file/d/1Z0cyVbdsaaw-EuPd6IidkRskHtIQmqM-/view?usp=sharing)
 If you find this project interesting, please do not hesitate to reach out to me for any recommendations, questions, or suggestions.
 [Email me](mailto:hamzakaddour@isu.edu)
