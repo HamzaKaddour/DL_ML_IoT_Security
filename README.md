@@ -1,4 +1,4 @@
-# Evaluating the Performance of Machine Learning-Based Classification Models for IoT Intrusion Detection
+# Evaluating the Performance of Machine Learning-Based Classification Models for IoT Intrusion Detection (2024 IEEE ORSS)
 
 <a href="https://doi-org.libpublic3.library.isu.edu/10.1109/ORSS62274.2024.10697949"><img src="https://img.shields.io/badge/-IEEE-00629B?&style=for-the-badge&logo=ieee&logoColor=white" /></a> 
 <a href="https://www.researchgate.net/publication/384580344_Evaluating_the_Performance_of_Machine_Learning-Based_Classification_Models_for_IoT_Intrusion_Detection"><img src="https://img.shields.io/badge/-ResearchGate-00CCBB?&style=for-the-badge&logo=researchgate&logoColor=white" /></a>
@@ -45,6 +45,18 @@ Next, we used the Multilayer Perceptrons (MLP) in Deep Learning and the Deep Q-N
 
 ![](DLAccuracy.png)
 ![](DLLoss.png)
+
+# Performance Metrics of the MLP Model
+
+| **Metric**   | **Value**   |
+|--------------|-------------|
+| R2 Score     | 0.9994765   |
+| Log Loss     | 0.0002139   |
+| Precision    | 1.0         |
+| F1 Score     | 0.9999378   |
+| RMSE         | 0.0097348   |
+| Accuracy     | 0.9999052   |
+
 ![](drlperf.png)
 
 
