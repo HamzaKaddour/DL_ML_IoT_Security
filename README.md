@@ -17,7 +17,8 @@ processing, data manipulation, and algorithms implementation and evaluation.
 ![Proposed Framework Architecture.](AI_implementation.png)
 
 ## Running the code
-
+To run the code and find the results, please clone this project and download the data. The data path should be the same as the one used in the code. <br> 
+`data_training.py` is dedicated for the Machine Learning models and `RL_training.py` for the reinforcement learning implementation. 
 
 ### TO NOTE
 In the code, We developed models other than the tested models, where we included both Deep Learning (Multilayer Perceptrons (MLP)) models and Reinforcement Learning (DQN) setup.
@@ -31,7 +32,7 @@ The main results are illustrated in the table and figure below:
 ![Classifiers Performance.](Models.png)
 <br>
 
-## Model Evaluation Metrics
+### Model Evaluation Metrics
 
 | Model                | Accuracy   | Log Loss       | RMSE      | F1 Score  | Precision Score | R2 Score   |
 |----------------------|------------|----------------|-----------|-----------|-----------------|------------|
@@ -46,7 +47,7 @@ Next, we used the Multilayer Perceptrons (MLP) in Deep Learning and the Deep Q-N
 ![](DLAccuracy.png)
 ![](DLLoss.png)
 
-# Performance Metrics of the MLP Model
+### Performance Metrics of the MLP Model
 
 | **Metric**   | **Value**   |
 |--------------|-------------|
