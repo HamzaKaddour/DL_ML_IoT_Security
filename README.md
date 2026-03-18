@@ -8,6 +8,20 @@
 
 https://doi.org/10.1109/ORSS62274.2024.10697949
 
+## Key Contributions
+
+- Developed a comprehensive ML/DL-based intrusion detection framework for IoT networks
+- Benchmarked classical ML (RF, XGBoost) vs Deep Learning (MLP) and Reinforcement Learning (DQN)
+- Demonstrated near-perfect detection performance on the ToN-IoT dataset
+- Provided comparative analysis of model efficiency and scalability for real-world deployment
+
+##  Project Highlights
+
+-  Best Model: Random Forest & XGBoost (≈99.8% accuracy)
+-  Deep Learning: MLP achieved >99.9% accuracy
+-  Dataset: ToN-IoT (realistic IoT attack scenarios)
+-  Focus: Cybersecurity for IoT environments
+
 ## Abstract
 As the Internet of Things (IoT) continues to expand its footprint across various sectors, including healthcare, industrial automation, and smart homes, the security of these interconnected devices becomes paramount. With the proliferation of IoT devices, the attack surface for potential cybersecurity threats has significantly increased, necessitating the development of efficient Intrusion Detection Systems (IDS). This study embarks on a comprehensive examination of several machine learning algorithms aimed at enhancing the prediction accuracy of IDS within IoT networks. Leveraging the ToN-IoT dataset, we implement and compare the effectiveness of models. The findings reveal that ensemble methods, particularly Random Forest and XGBoost, exhibit superior performance, underscoring their potential for deployment in safeguarding IoT ecosystems against malicious intrusions. <br>
 ## ToN-IoT Dataset
