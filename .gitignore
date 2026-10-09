@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Notebook / IDE / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets and model outputs
+Processed_datasets/
+data/
+datasets/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
