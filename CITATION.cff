@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated IEEE ORSS paper."
+title: "Evaluating the Performance of Machine Learning-Based Classification Models for IoT Intrusion Detection"
+type: software
+authors:
+  - family-names: Kaddour
+    given-names: Hamza
+  - family-names: Das
+    given-names: Shaibal
+  - family-names: Bajgai
+    given-names: Rishikesh
+  - family-names: Sanchez
+    given-names: Amairanni
+  - family-names: Sanchez
+    given-names: Jason
+  - family-names: Chiu
+    given-names: Steve C.
+  - family-names: Ashour
+    given-names: Ahmed F.
+  - family-names: Fouda
+    given-names: Mostafa M.
+doi: 10.1109/ORSS62274.2024.10697949
+url: "https://github.com/HamzaKaddour/DL_ML_IoT_Security"
+repository-code: "https://github.com/HamzaKaddour/DL_ML_IoT_Security"
+date-released: 2024-01-01
