@@ -1,6 +1,8 @@
 # Evaluating the Performance of Machine Learning-Based Classification Models for IoT Intrusion Detection (2024 IEEE ORSS)
 
-<a href="https://doi-org.libpublic3.library.isu.edu/10.1109/ORSS62274.2024.10697949"><img src="https://img.shields.io/badge/-IEEE-00629B?&style=for-the-badge&logo=ieee&logoColor=white" /></a> 
+[![CI](https://github.com/HamzaKaddour/DL_ML_IoT_Security/actions/workflows/ci.yml/badge.svg)](https://github.com/HamzaKaddour/DL_ML_IoT_Security/actions/workflows/ci.yml)
+
+<a href="https://doi.org/10.1109/ORSS62274.2024.10697949"><img src="https://img.shields.io/badge/-IEEE-00629B?&style=for-the-badge&logo=ieee&logoColor=white" /></a> 
 <a href="https://www.researchgate.net/publication/384580344_Evaluating_the_Performance_of_Machine_Learning-Based_Classification_Models_for_IoT_Intrusion_Detection"><img src="https://img.shields.io/badge/-ResearchGate-00CCBB?&style=for-the-badge&logo=researchgate&logoColor=white" /></a>
 
 <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=Python&logoColor=white" alt="Python Badge" /> <img src="https://img.shields.io/badge/-OpenAI GYM-0081A5?&style=for-the-badge&logo=openaigym&logoColor=white" /> <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?&style=for-the-badge&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/-Pandas-150458?&style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/-Keras-D00000?&style=for-the-badge&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/-Pytorch-EE4C2C?&style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/-scikit--learn-F7931E?&style=for-the-badge&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/-Overleaf-47A141?&style=for-the-badge&logo=overleaf&logoColor=white" />
@@ -35,12 +37,45 @@ processing, data manipulation, and algorithms implementation and evaluation.
 <br>
 ![Proposed Framework Architecture.](AI_implementation.png)
 
-## Running the code
-To run the code and find the results, please clone this project and download the data. The data path should be the same as the one used in the code. <br> 
-`data_training.py` is dedicated for the Machine Learning models and `RL_training.py` for the reinforcement learning implementation. 
+## Reproducibility and running the code
 
-### TO NOTE
-In the code, We developed models other than the tested models, where we included both Deep Learning (Multilayer Perceptrons (MLP)) models and Reinforcement Learning (DQN) setup.
+This repository contains the experiment scripts used for the ML and reinforcement-learning extensions of the study. The dataset itself is not committed to GitHub.
+
+### 1. Create a Python environment
+
+```bash
+git clone https://github.com/HamzaKaddour/DL_ML_IoT_Security.git
+cd DL_ML_IoT_Security
+
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 2. Download the dataset
+
+Download the ToN-IoT data using the dataset link above and keep it outside Git. The original scripts were developed in a research/Colab workflow and therefore contain experiment-specific dataset paths.
+
+Before running them, update the dataset path in:
+
+- `data_training.py` for the classical ML experiments;
+- `RL_training.py` for the reinforcement-learning experiment.
+
+### 3. Run the experiments
+
+```bash
+python data_training.py
+python RL_training.py
+```
+
+`data_training.py` covers the classical machine-learning experiments and associated analysis. `RL_training.py` contains the reinforcement-learning environment and agent workflow.
+
+The repository also includes lightweight GitHub Actions CI that compiles both Python scripts on every push and pull request. Full model training is intentionally not run in CI because it depends on the external research dataset and longer-running experimentation.
+
+### Scope note
+
+The repository includes experimental ML, deep-learning, and reinforcement-learning extensions beyond the models reported in the conference paper. The committed scripts reflect the original research workflow rather than a packaged production library.
 ## Results
 First, we explored the data and we deducted a correlation analysis as in the figure below: <br>
 
